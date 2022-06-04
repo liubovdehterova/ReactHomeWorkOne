@@ -1,15 +1,14 @@
 import React from 'react';
-import ReactDOM from 'react-dom';
 import './App.css';
-import Header from "./Components/Header";
-import Main from "./Components/Main";
-import Footer from "./Components/Footer";
+import Header from "./components/Header";
+import Main from "./components/Main";
+import Footer from "./components/Footer";
 
 const App = () => {
     return (
         <>
-            <Header />,
-            <Main />,
+            <Header />
+            <Main />
             <Footer />
         </>
     );
